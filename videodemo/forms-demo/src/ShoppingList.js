@@ -4,6 +4,10 @@ import Item from "./Item"
 import NewItemForm from "./NewItemForm";
 
 
+
+  /* Shopping list component*/
+
+
 const ShoppingList = () => {
   const INITIAL_STATE = [
     { id: uuid(), name: 'Peanut Butter', qty: 2 },
