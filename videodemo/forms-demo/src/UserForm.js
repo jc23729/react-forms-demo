@@ -16,7 +16,7 @@ const UserForm = () => {
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault();//this will no longer submit or refresh state is preserved
     const { username, email, password } = formData;
     alert(`Created user, ${username} w/ email ${email} & password ${password}`)
     setFormData(initialState)
