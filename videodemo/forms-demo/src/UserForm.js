@@ -72,7 +72,8 @@ const UserForm = () => {
 
   return (
     <form>
-      
+      <input type="text" placeholder="username" value={username} onChange={handleChange} />
+  <button>Add me to the list</button>
     </form>
   )
 export default UserForm;
