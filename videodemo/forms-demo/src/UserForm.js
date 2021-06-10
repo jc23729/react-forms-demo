@@ -60,4 +60,19 @@ const UserForm = () => {
   )
 }
 
+import React, { useState } from "react";
+
+//react will always display the value of whats being show
+const UserForm = () => {
+  const [username, setUsername] = useState("ChickenLady");
+  const handleChange = (e) =>{
+   setUsername(e.target.value)
+  }
+
+
+  return (
+    <form>
+      
+    </form>
+  )
 export default UserForm;
