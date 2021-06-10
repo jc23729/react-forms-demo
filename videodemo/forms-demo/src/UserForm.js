@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//react will always display the value of whats being show
 const UserForm = () => {
   const initialState = {
     username: "",
